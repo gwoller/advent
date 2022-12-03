@@ -6,6 +6,7 @@ tic
 [~, guide] = xlsread('Dec2Input.xlsx');
 
 guide = split(guide);
+<<<<<<< HEAD
 score = zeros(length(guide),1);
 
 for i = 1:length(guide)
