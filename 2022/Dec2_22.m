@@ -91,3 +91,19 @@ end
 
 final = sum(score_2(:,1));
 toc
+=======
+
+for i = 1:length(guide)
+    if guide(i,1) == 'A'
+        if guide(i,2) == 'X'
+            guide(i,3) = 4;
+        end
+        if guide(i,2) == 'Y'
+            guide(i,3) = 8;
+        end
+        if guide(i,2) == 'Z'
+            guide(i,3) = 3;
+        end
+    end
+end
+>>>>>>> ac98abb8ff072b6732f95f5e0f26c16139a13f5e
