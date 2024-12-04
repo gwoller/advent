@@ -9,7 +9,6 @@ str = strjoin(data,'\n');
 tot = funcDay3(str)
 
 %% Part 2
-
 newStr = replaceBetween(str,"don't()","do()"," ",'Boundaries','inclusive');
 newStr = extractBefore(newStr,"don't()");
 
