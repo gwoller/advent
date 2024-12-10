@@ -1,0 +1,27 @@
+clc
+clear variables
+
+data = readlines('Day4Input.txt');
+
+str = split(data,"");
+str(:,1) = [];
+
+x = count(str,'X');
+m = count(str,'M')*2;
+a = count(str,'A')*3;
+s = count(str,'S')*4;
+
+input = x+m+a+s;
+
+[xi, xj] = find(x==1);
+
+count = 0;
+
+ogker = [1 2 3 4];
+
+for i = 0:3
+
+for i = 1:length(xi)
+    fprintf('%1.0f\n',x(xi(i),xj(i)));
+end
+
